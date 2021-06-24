@@ -9,9 +9,11 @@ function updateLights(bri, xy, xy2) {
         method: 'PUT',
         body: JSON.stringify({ bri, /* xy */ })
     };
-    
+    const ip = '192.168.1.2';
+    const user = 'Z06CI4V3LOCY02dQHQxAfQJcEU8jlEyE825u1q2l';
+
     fetch(`http://${ip}/api/${user}/lights/2/state`, conf);
-    fetch(`http://${ip}/api/${user}/lights/3/state`, conft);
+    fetch(`http://${ip}/api/${user}/lights/3/state`, conf);
 }
 
 function getColor(iterations, iteration) {
@@ -116,8 +118,6 @@ const startRec = function (lights) {
 
             i = setInterval(() => {
                 const bri = Math.min(254, Math.round(Math.pow(volumeMeter.volume * 40, 2.5)));
-                const ip = '192.168.1.2';
-                const user = 'Z06CI4V3LOCY02dQHQxAfQJcEU8jlEyE825u1q2l';
                 const { xy, rgb } = getColor(iterations, iteration++);
                 const { xy: xy2 } = getColor(iterations, iterations - iteration);
 
@@ -148,3 +148,31 @@ const startRec = function (lights) {
         .then(handleSuccess)
         .catch(handleError);
 };
+
+function create(iterations, iteration = 1) {
+    setTimeout(() => {
+        // Get color
+        const h = iteration / iterations;
+        const [r, g, b] = hslToRgb(h, 1, .5);
+
+        // Create div
+        const div = document.createElement('div');
+        div.style.background = `rgb(${r}, ${g}, ${b})`
+        document.body.appendChild(div);
+
+        // Recall
+        if (iteration < iterations) {
+            create(iterations, iteration + 1);
+        }
+
+        // Log
+        console.log([r, g, b], getXY(...[r, g, b]))
+    }, 1000 / iterations);
+}
+// create(50);
+
+let iterations = 5 * 60;
+let iteration = 0;
+while (++iteration < iterations) {
+    // createDiv(getColor(iterations, iteration).rgb);
+}
