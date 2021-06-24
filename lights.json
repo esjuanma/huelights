@@ -1,0 +1,3033 @@
+{
+    "lights": {
+        "1": {
+            "state": {
+                "on": true,
+                "bri": 99,
+                "hue": 8402,
+                "sat": 140,
+                "effect": "none",
+                "xy": [
+                    0.4575,
+                    0.4099
+                ],
+                "ct": 366,
+                "alert": "select",
+                "colormode": "xy",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2021-01-26T17:07:42"
+            },
+            "type": "Extended color light",
+            "name": "Velador",
+            "modelid": "LCA001",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue color lamp",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 200,
+                    "maxlumen": 800,
+                    "colorgamuttype": "C",
+                    "colorgamut": [
+                        [
+                            0.6915,
+                            0.3083
+                        ],
+                        [
+                            0.17,
+                            0.7
+                        ],
+                        [
+                            0.1532,
+                            0.0475
+                        ]
+                    ],
+                    "ct": {
+                        "min": 153,
+                        "max": 500
+                    }
+                },
+                "streaming": {
+                    "renderer": true,
+                    "proxy": true
+                }
+            },
+            "config": {
+                "archetype": "tableshade",
+                "function": "mixed",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "safety",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:08:2c:3f:a7-0b",
+            "swversion": "1.76.10",
+            "swconfigid": "E2D4D068",
+            "productid": "Philips-LCA001-5-A19ECLv6"
+        },
+        "2": {
+            "state": {
+                "on": true,
+                "bri": 100,
+                "hue": 48721,
+                "sat": 126,
+                "effect": "none",
+                "xy": [
+                    0.2911,
+                    0.2248
+                ],
+                "ct": 153,
+                "alert": "select",
+                "colormode": "xy",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2021-01-26T17:07:44"
+            },
+            "type": "Extended color light",
+            "name": "Velador",
+            "modelid": "LCA001",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue color lamp",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 200,
+                    "maxlumen": 800,
+                    "colorgamuttype": "C",
+                    "colorgamut": [
+                        [
+                            0.6915,
+                            0.3083
+                        ],
+                        [
+                            0.17,
+                            0.7
+                        ],
+                        [
+                            0.1532,
+                            0.0475
+                        ]
+                    ],
+                    "ct": {
+                        "min": 153,
+                        "max": 500
+                    }
+                },
+                "streaming": {
+                    "renderer": true,
+                    "proxy": true
+                }
+            },
+            "config": {
+                "archetype": "floorshade",
+                "function": "mixed",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "powerfail",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:06:78:b6:0b-0b",
+            "swversion": "1.76.10",
+            "swconfigid": "E2D4D068",
+            "productid": "Philips-LCA001-5-A19ECLv6"
+        },
+        "3": {
+            "state": {
+                "on": true,
+                "bri": 100,
+                "hue": 5244,
+                "sat": 201,
+                "effect": "none",
+                "xy": [
+                    0.542,
+                    0.3861
+                ],
+                "ct": 500,
+                "alert": "select",
+                "colormode": "xy",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2021-01-26T17:07:39"
+            },
+            "type": "Extended color light",
+            "name": "Lámpara",
+            "modelid": "LCA001",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue color lamp",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 200,
+                    "maxlumen": 800,
+                    "colorgamuttype": "C",
+                    "colorgamut": [
+                        [
+                            0.6915,
+                            0.3083
+                        ],
+                        [
+                            0.17,
+                            0.7
+                        ],
+                        [
+                            0.1532,
+                            0.0475
+                        ]
+                    ],
+                    "ct": {
+                        "min": 153,
+                        "max": 500
+                    }
+                },
+                "streaming": {
+                    "renderer": true,
+                    "proxy": true
+                }
+            },
+            "config": {
+                "archetype": "flexiblelamp",
+                "function": "mixed",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "powerfail",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:06:79:cd:af-0b",
+            "swversion": "1.76.10",
+            "swconfigid": "E2D4D068",
+            "productid": "Philips-LCA001-5-A19ECLv6"
+        }
+    },
+    "groups": {
+        "1": {
+            "name": "Living",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "sensors": [],
+            "type": "Room",
+            "state": {
+                "all_on": true,
+                "any_on": true
+            },
+            "recycle": false,
+            "class": "Living room",
+            "action": {
+                "on": true,
+                "bri": 100,
+                "hue": 5244,
+                "sat": 201,
+                "effect": "none",
+                "xy": [
+                    0.542,
+                    0.3861
+                ],
+                "ct": 500,
+                "alert": "select",
+                "colormode": "xy"
+            }
+        },
+        "2": {
+            "name": "Habitación",
+            "lights": [
+                "1"
+            ],
+            "sensors": [],
+            "type": "Room",
+            "state": {
+                "all_on": true,
+                "any_on": true
+            },
+            "recycle": false,
+            "class": "Bedroom",
+            "action": {
+                "on": true,
+                "bri": 99,
+                "hue": 8402,
+                "sat": 140,
+                "effect": "none",
+                "xy": [
+                    0.4575,
+                    0.4099
+                ],
+                "ct": 366,
+                "alert": "select",
+                "colormode": "xy"
+            }
+        },
+        "3": {
+            "name": "Área de entretenimiento 1",
+            "lights": [
+                "2"
+            ],
+            "sensors": [],
+            "type": "Entertainment",
+            "state": {
+                "all_on": true,
+                "any_on": true
+            },
+            "recycle": false,
+            "class": "TV",
+            "stream": {
+                "proxymode": "manual",
+                "proxynode": "/bridge",
+                "active": false,
+                "owner": null
+            },
+            "locations": {
+                "2": [
+                    -0.96,
+                    0.47,
+                    1
+                ]
+            },
+            "action": {
+                "on": true,
+                "bri": 100,
+                "hue": 48721,
+                "sat": 126,
+                "effect": "none",
+                "xy": [
+                    0.2911,
+                    0.2248
+                ],
+                "ct": 153,
+                "alert": "select",
+                "colormode": "xy"
+            }
+        }
+    },
+    "config": {
+        "name": "Philips hue",
+        "zigbeechannel": 11,
+        "bridgeid": "ECB5FAFFFE322EF0",
+        "mac": "ec:b5:fa:32:2e:f0",
+        "dhcp": true,
+        "ipaddress": "192.168.1.2",
+        "netmask": "255.255.255.0",
+        "gateway": "192.168.1.1",
+        "proxyaddress": "none",
+        "proxyport": 0,
+        "UTC": "2021-06-19T07:27:00",
+        "localtime": "2021-06-19T04:27:00",
+        "timezone": "America/Argentina/Buenos_Aires",
+        "modelid": "BSB002",
+        "datastoreversion": "103",
+        "swversion": "1945091050",
+        "apiversion": "1.44.0",
+        "swupdate": {
+            "updatestate": 0,
+            "checkforupdate": false,
+            "devicetypes": {
+                "bridge": false,
+                "lights": [],
+                "sensors": []
+            },
+            "url": "",
+            "text": "",
+            "notify": true
+        },
+        "swupdate2": {
+            "checkforupdate": false,
+            "lastchange": "2021-06-02T17:56:23",
+            "bridge": {
+                "state": "noupdates",
+                "lastinstall": "2021-06-02T17:46:10"
+            },
+            "state": "noupdates",
+            "autoinstall": {
+                "updatetime": "T14:00:00",
+                "on": true
+            }
+        },
+        "linkbutton": false,
+        "portalservices": true,
+        "portalconnection": "connected",
+        "portalstate": {
+            "signedon": true,
+            "incoming": false,
+            "outgoing": true,
+            "communication": "disconnected"
+        },
+        "internetservices": {
+            "internet": "connected",
+            "remoteaccess": "connected",
+            "time": "connected",
+            "swupdate": "connected"
+        },
+        "factorynew": false,
+        "replacesbridgeid": null,
+        "backup": {
+            "status": "idle",
+            "errorcode": 0
+        },
+        "starterkitid": "",
+        "whitelist": {
+            "887784cb-0a68-44bd-8c78-a229139b98b5": {
+                "last use date": "1980-01-01T00:02:01",
+                "create date": "1980-01-01T00:02:01",
+                "name": "starterkit-setup#factory"
+            },
+            "08b70b21-8b45-4948-8e5b-50e7e6caacfc": {
+                "last use date": "2021-06-19T05:46:21",
+                "create date": "2020-10-26T22:24:43",
+                "name": "Hue 3#OnePlus GM1913"
+            },
+            "08a9343a-9851-4e96-a5c3-f22865b28562": {
+                "last use date": "2020-10-28T04:14:15",
+                "create date": "2020-10-27T22:57:10",
+                "name": "RazerDetectManager#PC"
+            },
+            "535f6b78-9c43-4135-829e-5fc3f21bb2d8": {
+                "last use date": "2021-06-18T02:54:50",
+                "create date": "2021-05-22T01:10:33",
+                "name": "Hue 3#Samsung SM-N985F"
+            },
+            "Z06CI4V3LOCY02dQHQxAfQJcEU8jlEyE825u1q2l": {
+                "last use date": "2021-06-19T07:27:00",
+                "create date": "2021-06-19T04:47:00",
+                "name": "my_hue_app#iphone peter"
+            }
+        }
+    },
+    "schedules": {
+        "1": {
+            "name": "Switch habitación",
+            "description": "11:timer ",
+            "command": {
+                "address": "/api/0/sensors/25/state",
+                "body": {
+                    "status": 1
+                },
+                "method": "PUT"
+            },
+            "localtime": "PT00:00:10",
+            "time": "PT00:00:10",
+            "created": "2021-06-19T00:44:29",
+            "status": "disabled",
+            "autodelete": false,
+            "starttime": "2021-06-19T00:44:29",
+            "recycle": true
+        },
+        "2": {
+            "name": "Switch living",
+            "description": "11:timer ",
+            "command": {
+                "address": "/api/0/sensors/23/state",
+                "body": {
+                    "status": 1
+                },
+                "method": "PUT"
+            },
+            "localtime": "PT00:00:10",
+            "time": "PT00:00:10",
+            "created": "2021-06-17T20:59:25",
+            "status": "disabled",
+            "autodelete": false,
+            "starttime": "2021-06-17T20:59:25",
+            "recycle": true
+        }
+    },
+    "scenes": {
+        "nTfyPBUgpqhXlEu": {
+            "name": "Tarde",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "bePIx_r01"
+            },
+            "picture": "",
+            "lastupdated": "2020-12-17T23:13:33",
+            "version": 2
+        },
+        "wpuNaCF2ihjR8qg": {
+            "name": "Navidad",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "LHPvj_r01"
+            },
+            "picture": "",
+            "lastupdated": "2020-12-17T23:16:48",
+            "version": 2
+        },
+        "Awwqu3CBzVOXb23": {
+            "name": "Noche",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "0W0MX_r01"
+            },
+            "picture": "",
+            "lastupdated": "2021-05-31T22:10:56",
+            "version": 2
+        },
+        "v7AknIh1TTxBP-6": {
+            "name": "Atardecer en la sabana",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "nJMnp_r01_d15"
+            },
+            "picture": "",
+            "image": "4f2ed241-5aea-4c9d-8028-55d2b111e06f",
+            "lastupdated": "2020-10-26T22:28:21",
+            "version": 2
+        },
+        "esTRn4aesPY3U0D": {
+            "name": "Ocaso tropical",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "q8eZD_r01_d16"
+            },
+            "picture": "",
+            "image": "a6a03e6a-fe6e-45bc-b686-878137f3ba91",
+            "lastupdated": "2020-10-26T22:28:21",
+            "version": 2
+        },
+        "E6b0N2yY-woBLzL": {
+            "name": "Aurora boreal",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "IVc64_r01_d17"
+            },
+            "picture": "",
+            "image": "1e42b2e8-d02e-40d2-9c8d-b1fd8216c686",
+            "lastupdated": "2020-10-26T22:28:22",
+            "version": 2
+        },
+        "7qcFkLFzWrsyfk6": {
+            "name": "Flor primaveral",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "85kDK_r01_d18"
+            },
+            "picture": "",
+            "image": "adfa9c3e-e9aa-4b65-b9d3-c5b2c0576715",
+            "lastupdated": "2020-10-26T22:28:22",
+            "version": 2
+        },
+        "WQi9uQnNr7d6KkS": {
+            "name": "Relax",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": true,
+            "appdata": {
+                "version": 1,
+                "data": "ULlfi_r01_d01"
+            },
+            "picture": "",
+            "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+            "lastupdated": "2020-10-26T22:28:22",
+            "version": 2
+        },
+        "u4gryacaNRfVjO3": {
+            "name": "Lectura",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": true,
+            "appdata": {
+                "version": 1,
+                "data": "fbWZT_r01_d02"
+            },
+            "picture": "",
+            "image": "e101a77f-9984-4f61-aac8-15741983c656",
+            "lastupdated": "2020-10-26T22:28:22",
+            "version": 2
+        },
+        "zQ1HONabF8R0zco": {
+            "name": "Concentración",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": true,
+            "appdata": {
+                "version": 1,
+                "data": "5zMAj_r01_d03"
+            },
+            "picture": "",
+            "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+            "lastupdated": "2020-10-26T22:28:22",
+            "version": 2
+        },
+        "H7F2gxailo8QExm": {
+            "name": "Energía",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": true,
+            "appdata": {
+                "version": 1,
+                "data": "eJLsw_r01_d04"
+            },
+            "picture": "",
+            "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+            "lastupdated": "2020-10-26T22:28:22",
+            "version": 2
+        },
+        "8z2wZXLbc6VITF6": {
+            "name": "Luminosa",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "TUtxF_r01_d05"
+            },
+            "picture": "",
+            "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+            "lastupdated": "2020-10-26T22:28:22",
+            "version": 2
+        },
+        "zNO-6fA7hjmfdM-": {
+            "name": "Atenuada",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "Np8yu_r01_d06"
+            },
+            "picture": "",
+            "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+            "lastupdated": "2020-10-26T22:28:22",
+            "version": 2
+        },
+        "Vd3jPj1g9-AXVDF": {
+            "name": "Luz nocturna",
+            "type": "GroupScene",
+            "group": "1",
+            "lights": [
+                "2",
+                "3"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "Tdx5C_r01_d07"
+            },
+            "picture": "",
+            "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+            "lastupdated": "2020-10-26T22:28:22",
+            "version": 2
+        },
+        "xYDcUWgktnFdgf4": {
+            "name": "Atardecer en la sabana",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": true,
+            "appdata": {
+                "version": 1,
+                "data": "I737Y_r02_d15"
+            },
+            "picture": "",
+            "image": "4f2ed241-5aea-4c9d-8028-55d2b111e06f",
+            "lastupdated": "2020-10-26T23:58:59",
+            "version": 2
+        },
+        "CgQcQq45W7iw-oB": {
+            "name": "Ocaso tropical",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "535f6b78-9c43-4135-829e-5fc3f21bb2d8",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "qSanI_r02_d16"
+            },
+            "picture": "",
+            "image": "a6a03e6a-fe6e-45bc-b686-878137f3ba91",
+            "lastupdated": "2021-05-26T21:08:53",
+            "version": 2
+        },
+        "vsTJVpMHz7cYbKo": {
+            "name": "Aurora boreal",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": true,
+            "appdata": {
+                "version": 1,
+                "data": "wZemP_r02_d17"
+            },
+            "picture": "",
+            "image": "1e42b2e8-d02e-40d2-9c8d-b1fd8216c686",
+            "lastupdated": "2020-10-26T23:58:59",
+            "version": 2
+        },
+        "OKeRjtx0p9R6TYg": {
+            "name": "Flor primaveral",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": true,
+            "appdata": {
+                "version": 1,
+                "data": "sRbEn_r02_d18"
+            },
+            "picture": "",
+            "image": "adfa9c3e-e9aa-4b65-b9d3-c5b2c0576715",
+            "lastupdated": "2020-10-26T23:58:59",
+            "version": 2
+        },
+        "RUp9EX7FT1lf-AK": {
+            "name": "Relax",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "iiTn9_r02_d01"
+            },
+            "picture": "",
+            "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+            "lastupdated": "2020-10-26T23:58:59",
+            "version": 2
+        },
+        "bd6-lxR7dBIsIqH": {
+            "name": "Lectura",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "AITFs_r02_d02"
+            },
+            "picture": "",
+            "image": "e101a77f-9984-4f61-aac8-15741983c656",
+            "lastupdated": "2020-10-26T23:58:59",
+            "version": 2
+        },
+        "s4GwmCJIZh12Lt4": {
+            "name": "Concentración",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "EUgBF_r02_d03"
+            },
+            "picture": "",
+            "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+            "lastupdated": "2020-10-26T23:58:59",
+            "version": 2
+        },
+        "moZ5-Zd2PaOxhr-": {
+            "name": "Energía",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "7Nfz7_r02_d04"
+            },
+            "picture": "",
+            "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+            "lastupdated": "2020-10-26T23:58:59",
+            "version": 2
+        },
+        "3LBie6PpGpyBiZ4": {
+            "name": "Luminosa",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "uLMdg_r02_d05"
+            },
+            "picture": "",
+            "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+            "lastupdated": "2020-10-26T23:59:00",
+            "version": 2
+        },
+        "8UFEHxvvYfFFkqM": {
+            "name": "Atenuada",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": true,
+            "appdata": {
+                "version": 1,
+                "data": "RHU1E_r02_d06"
+            },
+            "picture": "",
+            "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+            "lastupdated": "2020-10-26T23:59:00",
+            "version": 2
+        },
+        "WeGeoTMtbiHGmbE": {
+            "name": "Luz nocturna",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": false,
+            "appdata": {
+                "version": 1,
+                "data": "ZpPXE_r02_d07"
+            },
+            "picture": "",
+            "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+            "lastupdated": "2020-10-26T23:59:00",
+            "version": 2
+        },
+        "PNQOaQRt2AjurvT": {
+            "name": "Night",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "locked": true,
+            "appdata": {
+                "version": 1,
+                "data": "kb4pE_r02"
+            },
+            "picture": "",
+            "lastupdated": "2020-11-08T01:30:38",
+            "version": 2
+        },
+        "JF0zao-TB1p8LU4": {
+            "name": "Recovery Scene",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": true,
+            "locked": true,
+            "appdata": {},
+            "picture": "",
+            "lastupdated": "2021-06-15T05:30:04",
+            "version": 2
+        },
+        "77Ir0moKbHy8YlL": {
+            "name": "Scene recoveryScene ",
+            "type": "GroupScene",
+            "group": "2",
+            "lights": [
+                "1"
+            ],
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": true,
+            "locked": true,
+            "appdata": {},
+            "picture": "",
+            "lastupdated": "2021-06-14T23:21:17",
+            "version": 2
+        }
+    },
+    "rules": {
+        "1": {
+            "name": "12:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:35:29",
+            "lasttriggered": "2021-06-19T00:44:29",
+            "timestriggered": 14,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/4/state/buttonevent",
+                    "operator": "eq",
+                    "value": "1002"
+                },
+                {
+                    "address": "/sensors/4/state/lastupdated",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/25/state/status",
+                    "operator": "gt",
+                    "value": "0"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "on": true
+                    }
+                },
+                {
+                    "address": "/sensors/25/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 0
+                    }
+                },
+                {
+                    "address": "/sensors/26/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 1
+                    }
+                },
+                {
+                    "address": "/schedules/1",
+                    "method": "PUT",
+                    "body": {
+                        "status": "enabled",
+                        "localtime": "PT00:00:10"
+                    }
+                }
+            ]
+        },
+        "2": {
+            "name": "12:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:35:30",
+            "lasttriggered": "2021-06-14T22:56:21",
+            "timestriggered": 2,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/4/state/buttonevent",
+                    "operator": "eq",
+                    "value": "1002"
+                },
+                {
+                    "address": "/sensors/4/state/lastupdated",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/25/state/status",
+                    "operator": "lt",
+                    "value": "1"
+                },
+                {
+                    "address": "/sensors/26/state/status",
+                    "operator": "eq",
+                    "value": "1"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/26/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 2
+                    }
+                },
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "scene": "xYDcUWgktnFdgf4"
+                    }
+                },
+                {
+                    "address": "/schedules/1",
+                    "method": "PUT",
+                    "body": {
+                        "status": "enabled",
+                        "localtime": "PT00:00:10"
+                    }
+                }
+            ]
+        },
+        "3": {
+            "name": "12:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:35:30",
+            "lasttriggered": "2021-06-14T22:56:15",
+            "timestriggered": 1,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/4/state/buttonevent",
+                    "operator": "eq",
+                    "value": "1002"
+                },
+                {
+                    "address": "/sensors/4/state/lastupdated",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/25/state/status",
+                    "operator": "lt",
+                    "value": "1"
+                },
+                {
+                    "address": "/sensors/26/state/status",
+                    "operator": "eq",
+                    "value": "2"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/26/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 3
+                    }
+                },
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "scene": "vsTJVpMHz7cYbKo"
+                    }
+                },
+                {
+                    "address": "/schedules/1",
+                    "method": "PUT",
+                    "body": {
+                        "status": "enabled",
+                        "localtime": "PT00:00:10"
+                    }
+                }
+            ]
+        },
+        "4": {
+            "name": "12:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:35:30",
+            "lasttriggered": "2021-06-14T22:56:16",
+            "timestriggered": 1,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/4/state/buttonevent",
+                    "operator": "eq",
+                    "value": "1002"
+                },
+                {
+                    "address": "/sensors/4/state/lastupdated",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/25/state/status",
+                    "operator": "lt",
+                    "value": "1"
+                },
+                {
+                    "address": "/sensors/26/state/status",
+                    "operator": "eq",
+                    "value": "3"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/26/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 4
+                    }
+                },
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "scene": "OKeRjtx0p9R6TYg"
+                    }
+                },
+                {
+                    "address": "/schedules/1",
+                    "method": "PUT",
+                    "body": {
+                        "status": "enabled",
+                        "localtime": "PT00:00:10"
+                    }
+                }
+            ]
+        },
+        "5": {
+            "name": "12:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:35:30",
+            "lasttriggered": "2021-06-14T22:56:17",
+            "timestriggered": 1,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/4/state/buttonevent",
+                    "operator": "eq",
+                    "value": "1002"
+                },
+                {
+                    "address": "/sensors/4/state/lastupdated",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/25/state/status",
+                    "operator": "lt",
+                    "value": "1"
+                },
+                {
+                    "address": "/sensors/26/state/status",
+                    "operator": "eq",
+                    "value": "4"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/26/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 5
+                    }
+                },
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "scene": "PNQOaQRt2AjurvT"
+                    }
+                },
+                {
+                    "address": "/schedules/1",
+                    "method": "PUT",
+                    "body": {
+                        "status": "enabled",
+                        "localtime": "PT00:00:10"
+                    }
+                }
+            ]
+        },
+        "6": {
+            "name": "12:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:35:30",
+            "lasttriggered": "2021-06-14T22:56:18",
+            "timestriggered": 1,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/4/state/buttonevent",
+                    "operator": "eq",
+                    "value": "1002"
+                },
+                {
+                    "address": "/sensors/4/state/lastupdated",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/25/state/status",
+                    "operator": "lt",
+                    "value": "1"
+                },
+                {
+                    "address": "/sensors/26/state/status",
+                    "operator": "eq",
+                    "value": "5"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/26/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 1
+                    }
+                },
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "on": true
+                    }
+                },
+                {
+                    "address": "/schedules/1",
+                    "method": "PUT",
+                    "body": {
+                        "status": "enabled",
+                        "localtime": "PT00:00:10"
+                    }
+                }
+            ]
+        },
+        "7": {
+            "name": "13:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:35:30",
+            "lasttriggered": "2021-06-19T00:44:50",
+            "timestriggered": 4,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/4/state/buttonevent",
+                    "operator": "eq",
+                    "value": "2000"
+                },
+                {
+                    "address": "/sensors/4/state/lastupdated",
+                    "operator": "dx"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "transitiontime": 9,
+                        "bri_inc": 30
+                    }
+                }
+            ]
+        },
+        "8": {
+            "name": "14:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:35:30",
+            "lasttriggered": "none",
+            "timestriggered": 0,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/4/state/buttonevent",
+                    "operator": "eq",
+                    "value": "3000"
+                },
+                {
+                    "address": "/sensors/4/state/lastupdated",
+                    "operator": "dx"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "transitiontime": 9,
+                        "bri_inc": -30
+                    }
+                }
+            ]
+        },
+        "9": {
+            "name": "15:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:35:31",
+            "lasttriggered": "2021-06-19T00:44:51",
+            "timestriggered": 4,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/4/state/buttonevent",
+                    "operator": "eq",
+                    "value": "2001"
+                },
+                {
+                    "address": "/sensors/4/state/lastupdated",
+                    "operator": "dx"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "transitiontime": 9,
+                        "bri_inc": 56
+                    }
+                }
+            ]
+        },
+        "10": {
+            "name": "16:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:35:31",
+            "lasttriggered": "none",
+            "timestriggered": 0,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/4/state/buttonevent",
+                    "operator": "eq",
+                    "value": "3001"
+                },
+                {
+                    "address": "/sensors/4/state/lastupdated",
+                    "operator": "dx"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "transitiontime": 9,
+                        "bri_inc": -56
+                    }
+                }
+            ]
+        },
+        "11": {
+            "name": "17:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:35:31",
+            "lasttriggered": "2021-06-16T06:03:16",
+            "timestriggered": 5,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/4/state/buttonevent",
+                    "operator": "eq",
+                    "value": "4000"
+                },
+                {
+                    "address": "/sensors/4/state/lastupdated",
+                    "operator": "dx"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/25/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 1
+                    }
+                },
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "on": false
+                    }
+                }
+            ]
+        },
+        "12": {
+            "name": "12:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:34:30",
+            "lasttriggered": "2021-06-17T20:59:25",
+            "timestriggered": 10,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/2/state/buttonevent",
+                    "operator": "eq",
+                    "value": "1002"
+                },
+                {
+                    "address": "/sensors/2/state/lastupdated",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/23/state/status",
+                    "operator": "gt",
+                    "value": "0"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/1/action",
+                    "method": "PUT",
+                    "body": {
+                        "on": true
+                    }
+                },
+                {
+                    "address": "/sensors/23/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 0
+                    }
+                },
+                {
+                    "address": "/sensors/24/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 1
+                    }
+                },
+                {
+                    "address": "/schedules/2",
+                    "method": "PUT",
+                    "body": {
+                        "status": "enabled",
+                        "localtime": "PT00:00:10"
+                    }
+                }
+            ]
+        },
+        "13": {
+            "name": "12:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:34:30",
+            "lasttriggered": "none",
+            "timestriggered": 0,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/2/state/buttonevent",
+                    "operator": "eq",
+                    "value": "1002"
+                },
+                {
+                    "address": "/sensors/2/state/lastupdated",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/23/state/status",
+                    "operator": "lt",
+                    "value": "1"
+                },
+                {
+                    "address": "/sensors/24/state/status",
+                    "operator": "eq",
+                    "value": "1"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/24/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 2
+                    }
+                },
+                {
+                    "address": "/groups/1/action",
+                    "method": "PUT",
+                    "body": {
+                        "scene": "WQi9uQnNr7d6KkS"
+                    }
+                },
+                {
+                    "address": "/schedules/2",
+                    "method": "PUT",
+                    "body": {
+                        "status": "enabled",
+                        "localtime": "PT00:00:10"
+                    }
+                }
+            ]
+        },
+        "14": {
+            "name": "12:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:34:30",
+            "lasttriggered": "none",
+            "timestriggered": 0,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/2/state/buttonevent",
+                    "operator": "eq",
+                    "value": "1002"
+                },
+                {
+                    "address": "/sensors/2/state/lastupdated",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/23/state/status",
+                    "operator": "lt",
+                    "value": "1"
+                },
+                {
+                    "address": "/sensors/24/state/status",
+                    "operator": "eq",
+                    "value": "2"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/24/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 3
+                    }
+                },
+                {
+                    "address": "/groups/1/action",
+                    "method": "PUT",
+                    "body": {
+                        "scene": "u4gryacaNRfVjO3"
+                    }
+                },
+                {
+                    "address": "/schedules/2",
+                    "method": "PUT",
+                    "body": {
+                        "status": "enabled",
+                        "localtime": "PT00:00:10"
+                    }
+                }
+            ]
+        },
+        "15": {
+            "name": "12:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:34:30",
+            "lasttriggered": "none",
+            "timestriggered": 0,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/2/state/buttonevent",
+                    "operator": "eq",
+                    "value": "1002"
+                },
+                {
+                    "address": "/sensors/2/state/lastupdated",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/23/state/status",
+                    "operator": "lt",
+                    "value": "1"
+                },
+                {
+                    "address": "/sensors/24/state/status",
+                    "operator": "eq",
+                    "value": "3"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/24/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 4
+                    }
+                },
+                {
+                    "address": "/groups/1/action",
+                    "method": "PUT",
+                    "body": {
+                        "scene": "zQ1HONabF8R0zco"
+                    }
+                },
+                {
+                    "address": "/schedules/2",
+                    "method": "PUT",
+                    "body": {
+                        "status": "enabled",
+                        "localtime": "PT00:00:10"
+                    }
+                }
+            ]
+        },
+        "16": {
+            "name": "12:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:34:30",
+            "lasttriggered": "none",
+            "timestriggered": 0,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/2/state/buttonevent",
+                    "operator": "eq",
+                    "value": "1002"
+                },
+                {
+                    "address": "/sensors/2/state/lastupdated",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/23/state/status",
+                    "operator": "lt",
+                    "value": "1"
+                },
+                {
+                    "address": "/sensors/24/state/status",
+                    "operator": "eq",
+                    "value": "4"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/24/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 5
+                    }
+                },
+                {
+                    "address": "/groups/1/action",
+                    "method": "PUT",
+                    "body": {
+                        "scene": "H7F2gxailo8QExm"
+                    }
+                },
+                {
+                    "address": "/schedules/2",
+                    "method": "PUT",
+                    "body": {
+                        "status": "enabled",
+                        "localtime": "PT00:00:10"
+                    }
+                }
+            ]
+        },
+        "17": {
+            "name": "12:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:34:30",
+            "lasttriggered": "none",
+            "timestriggered": 0,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/2/state/buttonevent",
+                    "operator": "eq",
+                    "value": "1002"
+                },
+                {
+                    "address": "/sensors/2/state/lastupdated",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/23/state/status",
+                    "operator": "lt",
+                    "value": "1"
+                },
+                {
+                    "address": "/sensors/24/state/status",
+                    "operator": "eq",
+                    "value": "5"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/24/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 1
+                    }
+                },
+                {
+                    "address": "/groups/1/action",
+                    "method": "PUT",
+                    "body": {
+                        "on": true
+                    }
+                },
+                {
+                    "address": "/schedules/2",
+                    "method": "PUT",
+                    "body": {
+                        "status": "enabled",
+                        "localtime": "PT00:00:10"
+                    }
+                }
+            ]
+        },
+        "18": {
+            "name": "13:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:34:30",
+            "lasttriggered": "2021-06-14T20:48:21",
+            "timestriggered": 10,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/2/state/buttonevent",
+                    "operator": "eq",
+                    "value": "2000"
+                },
+                {
+                    "address": "/sensors/2/state/lastupdated",
+                    "operator": "dx"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/1/action",
+                    "method": "PUT",
+                    "body": {
+                        "transitiontime": 9,
+                        "bri_inc": 30
+                    }
+                }
+            ]
+        },
+        "19": {
+            "name": "14:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:34:31",
+            "lasttriggered": "2021-06-12T03:54:55",
+            "timestriggered": 2,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/2/state/buttonevent",
+                    "operator": "eq",
+                    "value": "3000"
+                },
+                {
+                    "address": "/sensors/2/state/lastupdated",
+                    "operator": "dx"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/1/action",
+                    "method": "PUT",
+                    "body": {
+                        "transitiontime": 9,
+                        "bri_inc": -30
+                    }
+                }
+            ]
+        },
+        "20": {
+            "name": "15:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:34:31",
+            "lasttriggered": "2021-06-14T20:48:22",
+            "timestriggered": 14,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/2/state/buttonevent",
+                    "operator": "eq",
+                    "value": "2001"
+                },
+                {
+                    "address": "/sensors/2/state/lastupdated",
+                    "operator": "dx"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/1/action",
+                    "method": "PUT",
+                    "body": {
+                        "transitiontime": 9,
+                        "bri_inc": 56
+                    }
+                }
+            ]
+        },
+        "21": {
+            "name": "16:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:34:31",
+            "lasttriggered": "2021-06-12T03:54:51",
+            "timestriggered": 4,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/2/state/buttonevent",
+                    "operator": "eq",
+                    "value": "3001"
+                },
+                {
+                    "address": "/sensors/2/state/lastupdated",
+                    "operator": "dx"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/1/action",
+                    "method": "PUT",
+                    "body": {
+                        "transitiontime": 9,
+                        "bri_inc": -56
+                    }
+                }
+            ]
+        },
+        "22": {
+            "name": "17:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-11-28T19:34:31",
+            "lasttriggered": "2021-06-16T22:40:44",
+            "timestriggered": 15,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/2/state/buttonevent",
+                    "operator": "eq",
+                    "value": "4000"
+                },
+                {
+                    "address": "/sensors/2/state/lastupdated",
+                    "operator": "dx"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/23/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 1
+                    }
+                },
+                {
+                    "address": "/groups/1/action",
+                    "method": "PUT",
+                    "body": {
+                        "on": false
+                    }
+                }
+            ]
+        },
+        "23": {
+            "name": "15:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-12-21T05:13:58",
+            "lasttriggered": "2021-06-14T20:29:22",
+            "timestriggered": 1,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/35/state/status",
+                    "operator": "eq",
+                    "value": "0"
+                },
+                {
+                    "address": "/sensors/35/state/status",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/9/state/dark",
+                    "operator": "eq",
+                    "value": "false"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/36/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 1
+                    }
+                }
+            ]
+        },
+        "24": {
+            "name": "16:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-12-21T05:13:58",
+            "lasttriggered": "2021-06-18T12:51:22",
+            "timestriggered": 36,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/9/state/dark",
+                    "operator": "eq",
+                    "value": "false"
+                },
+                {
+                    "address": "/sensors/9/state/dark",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/35/state/status",
+                    "operator": "eq",
+                    "value": "0"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/36/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 1
+                    }
+                }
+            ]
+        },
+        "25": {
+            "name": "17:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-12-21T05:13:58",
+            "lasttriggered": "2021-06-18T13:06:21",
+            "timestriggered": 39,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/9/state/dark",
+                    "operator": "eq",
+                    "value": "true"
+                },
+                {
+                    "address": "/sensors/9/state/dark",
+                    "operator": "dx"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/36/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 0
+                    }
+                }
+            ]
+        },
+        "26": {
+            "name": "18:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-12-21T05:13:58",
+            "lasttriggered": "2021-06-15T05:30:04",
+            "timestriggered": 3,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "eq",
+                    "value": "true"
+                },
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/9/state/dark",
+                    "operator": "eq",
+                    "value": "true"
+                },
+                {
+                    "address": "/config/localtime",
+                    "operator": "in",
+                    "value": "T19:30:00/T06:30:00"
+                },
+                {
+                    "address": "/sensors/35/state/status",
+                    "operator": "lt",
+                    "value": "1"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/scenes/JF0zao-TB1p8LU4",
+                    "method": "PUT",
+                    "body": {
+                        "storelightstate": true
+                    }
+                },
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "scene": "8UFEHxvvYfFFkqM"
+                    }
+                },
+                {
+                    "address": "/sensors/35/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 1
+                    }
+                },
+                {
+                    "address": "/sensors/36/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 0
+                    }
+                }
+            ]
+        },
+        "27": {
+            "name": "20:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-12-21T05:13:58",
+            "lasttriggered": "2021-06-14T20:29:12",
+            "timestriggered": 1,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "eq",
+                    "value": "true"
+                },
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/9/state/dark",
+                    "operator": "eq",
+                    "value": "true"
+                },
+                {
+                    "address": "/config/localtime",
+                    "operator": "in",
+                    "value": "T06:30:00/T19:30:00"
+                },
+                {
+                    "address": "/sensors/35/state/status",
+                    "operator": "lt",
+                    "value": "1"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/35/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 3
+                    }
+                },
+                {
+                    "address": "/sensors/36/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 0
+                    }
+                }
+            ]
+        },
+        "28": {
+            "name": "22:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-12-21T05:13:58",
+            "lasttriggered": "2021-06-14T23:21:17",
+            "timestriggered": 2,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "eq",
+                    "value": "false"
+                },
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "ddx",
+                    "value": "PT00:06:15"
+                },
+                {
+                    "address": "/config/localtime",
+                    "operator": "in",
+                    "value": "T19:30:00/T06:30:00"
+                },
+                {
+                    "address": "/groups/2/state/any_on",
+                    "operator": "eq",
+                    "value": "true"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/35/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 2
+                    }
+                },
+                {
+                    "address": "/scenes/77Ir0moKbHy8YlL",
+                    "method": "PUT",
+                    "body": {
+                        "storelightstate": true
+                    }
+                },
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "transitiontime": 4,
+                        "bri_inc": -127
+                    }
+                }
+            ]
+        },
+        "29": {
+            "name": "23:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-12-21T05:13:58",
+            "lasttriggered": "none",
+            "timestriggered": 0,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "eq",
+                    "value": "false"
+                },
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "ddx",
+                    "value": "PT00:02:15"
+                },
+                {
+                    "address": "/config/localtime",
+                    "operator": "in",
+                    "value": "T06:30:00/T19:30:00"
+                },
+                {
+                    "address": "/groups/2/state/any_on",
+                    "operator": "eq",
+                    "value": "true"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/35/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 4
+                    }
+                },
+                {
+                    "address": "/scenes/77Ir0moKbHy8YlL",
+                    "method": "PUT",
+                    "body": {
+                        "storelightstate": true
+                    }
+                },
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "transitiontime": 4,
+                        "bri_inc": -127
+                    }
+                }
+            ]
+        },
+        "30": {
+            "name": "25:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-12-21T05:13:59",
+            "lasttriggered": "none",
+            "timestriggered": 0,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "eq",
+                    "value": "true"
+                },
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/35/state/status",
+                    "operator": "eq",
+                    "value": "2"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "scene": "77Ir0moKbHy8YlL"
+                    }
+                },
+                {
+                    "address": "/sensors/35/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 1
+                    }
+                },
+                {
+                    "address": "/sensors/36/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 0
+                    }
+                }
+            ]
+        },
+        "31": {
+            "name": "26:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-12-21T05:13:59",
+            "lasttriggered": "none",
+            "timestriggered": 0,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "eq",
+                    "value": "true"
+                },
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "dx"
+                },
+                {
+                    "address": "/sensors/35/state/status",
+                    "operator": "gt",
+                    "value": "3"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "scene": "77Ir0moKbHy8YlL"
+                    }
+                },
+                {
+                    "address": "/sensors/35/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 3
+                    }
+                },
+                {
+                    "address": "/sensors/36/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 0
+                    }
+                }
+            ]
+        },
+        "32": {
+            "name": "27:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-12-21T05:13:59",
+            "lasttriggered": "2021-06-14T23:21:47",
+            "timestriggered": 2,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/35/state/status",
+                    "operator": "eq",
+                    "value": "2"
+                },
+                {
+                    "address": "/sensors/35/state/status",
+                    "operator": "ddx",
+                    "value": "PT00:00:30"
+                },
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "eq",
+                    "value": "false"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "scene": "JF0zao-TB1p8LU4"
+                    }
+                },
+                {
+                    "address": "/sensors/35/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 0
+                    }
+                }
+            ]
+        },
+        "33": {
+            "name": "28:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-12-21T05:13:59",
+            "lasttriggered": "none",
+            "timestriggered": 0,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/35/state/status",
+                    "operator": "eq",
+                    "value": "4"
+                },
+                {
+                    "address": "/sensors/35/state/status",
+                    "operator": "ddx",
+                    "value": "PT00:00:30"
+                },
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "eq",
+                    "value": "false"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/groups/2/action",
+                    "method": "PUT",
+                    "body": {
+                        "on": false
+                    }
+                },
+                {
+                    "address": "/sensors/35/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 0
+                    }
+                }
+            ]
+        },
+        "34": {
+            "name": "29:",
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "created": "2020-12-21T05:13:59",
+            "lasttriggered": "2021-06-19T06:35:29",
+            "timestriggered": 67,
+            "status": "enabled",
+            "recycle": true,
+            "conditions": [
+                {
+                    "address": "/sensors/8/state/presence",
+                    "operator": "eq",
+                    "value": "false"
+                },
+                {
+                    "address": "/groups/2/state/any_on",
+                    "operator": "eq",
+                    "value": "false"
+                }
+            ],
+            "actions": [
+                {
+                    "address": "/sensors/35/state",
+                    "method": "PUT",
+                    "body": {
+                        "status": 0
+                    }
+                }
+            ]
+        }
+    },
+    "sensors": {
+        "1": {
+            "state": {
+                "daylight": false,
+                "lastupdated": "2021-06-18T20:20:00"
+            },
+            "config": {
+                "on": true,
+                "configured": true,
+                "sunriseoffset": 30,
+                "sunsetoffset": -30
+            },
+            "name": "Daylight",
+            "type": "Daylight",
+            "modelid": "PHDL00",
+            "manufacturername": "Signify Netherlands B.V.",
+            "swversion": "1.0"
+        },
+        "2": {
+            "state": {
+                "buttonevent": 1002,
+                "lastupdated": "2021-06-17T20:59:25"
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2020-11-28T17:25:29"
+            },
+            "config": {
+                "on": true,
+                "battery": 100,
+                "reachable": true,
+                "pending": []
+            },
+            "name": "Switch living",
+            "type": "ZLLSwitch",
+            "modelid": "RWL021",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue dimmer switch",
+            "diversityid": "73bbabea-3420-499a-9856-46bf437e119b",
+            "swversion": "6.1.1.28573",
+            "uniqueid": "00:17:88:01:08:74:07:d6-02-fc00",
+            "capabilities": {
+                "certified": true,
+                "primary": true,
+                "inputs": [
+                    {
+                        "repeatintervals": [
+                            800
+                        ],
+                        "events": [
+                            {
+                                "buttonevent": 1000,
+                                "eventtype": "initial_press"
+                            },
+                            {
+                                "buttonevent": 1001,
+                                "eventtype": "repeat"
+                            },
+                            {
+                                "buttonevent": 1002,
+                                "eventtype": "short_release"
+                            },
+                            {
+                                "buttonevent": 1003,
+                                "eventtype": "long_release"
+                            }
+                        ]
+                    },
+                    {
+                        "repeatintervals": [
+                            800
+                        ],
+                        "events": [
+                            {
+                                "buttonevent": 2000,
+                                "eventtype": "initial_press"
+                            },
+                            {
+                                "buttonevent": 2001,
+                                "eventtype": "repeat"
+                            },
+                            {
+                                "buttonevent": 2002,
+                                "eventtype": "short_release"
+                            },
+                            {
+                                "buttonevent": 2003,
+                                "eventtype": "long_release"
+                            }
+                        ]
+                    },
+                    {
+                        "repeatintervals": [
+                            800
+                        ],
+                        "events": [
+                            {
+                                "buttonevent": 3000,
+                                "eventtype": "initial_press"
+                            },
+                            {
+                                "buttonevent": 3001,
+                                "eventtype": "repeat"
+                            },
+                            {
+                                "buttonevent": 3002,
+                                "eventtype": "short_release"
+                            },
+                            {
+                                "buttonevent": 3003,
+                                "eventtype": "long_release"
+                            }
+                        ]
+                    },
+                    {
+                        "repeatintervals": [
+                            800
+                        ],
+                        "events": [
+                            {
+                                "buttonevent": 4000,
+                                "eventtype": "initial_press"
+                            },
+                            {
+                                "buttonevent": 4001,
+                                "eventtype": "repeat"
+                            },
+                            {
+                                "buttonevent": 4002,
+                                "eventtype": "short_release"
+                            },
+                            {
+                                "buttonevent": 4003,
+                                "eventtype": "long_release"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "4": {
+            "state": {
+                "buttonevent": 2003,
+                "lastupdated": "2021-06-19T00:44:51"
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2020-10-28T17:37:52"
+            },
+            "config": {
+                "on": true,
+                "battery": 100,
+                "reachable": true,
+                "pending": []
+            },
+            "name": "Switch habitación",
+            "type": "ZLLSwitch",
+            "modelid": "RWL021",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue dimmer switch",
+            "diversityid": "73bbabea-3420-499a-9856-46bf437e119b",
+            "swversion": "6.1.1.28573",
+            "uniqueid": "00:17:88:01:08:74:07:d3-02-fc00",
+            "capabilities": {
+                "certified": true,
+                "primary": true,
+                "inputs": [
+                    {
+                        "repeatintervals": [
+                            800
+                        ],
+                        "events": [
+                            {
+                                "buttonevent": 1000,
+                                "eventtype": "initial_press"
+                            },
+                            {
+                                "buttonevent": 1001,
+                                "eventtype": "repeat"
+                            },
+                            {
+                                "buttonevent": 1002,
+                                "eventtype": "short_release"
+                            },
+                            {
+                                "buttonevent": 1003,
+                                "eventtype": "long_release"
+                            }
+                        ]
+                    },
+                    {
+                        "repeatintervals": [
+                            800
+                        ],
+                        "events": [
+                            {
+                                "buttonevent": 2000,
+                                "eventtype": "initial_press"
+                            },
+                            {
+                                "buttonevent": 2001,
+                                "eventtype": "repeat"
+                            },
+                            {
+                                "buttonevent": 2002,
+                                "eventtype": "short_release"
+                            },
+                            {
+                                "buttonevent": 2003,
+                                "eventtype": "long_release"
+                            }
+                        ]
+                    },
+                    {
+                        "repeatintervals": [
+                            800
+                        ],
+                        "events": [
+                            {
+                                "buttonevent": 3000,
+                                "eventtype": "initial_press"
+                            },
+                            {
+                                "buttonevent": 3001,
+                                "eventtype": "repeat"
+                            },
+                            {
+                                "buttonevent": 3002,
+                                "eventtype": "short_release"
+                            },
+                            {
+                                "buttonevent": 3003,
+                                "eventtype": "long_release"
+                            }
+                        ]
+                    },
+                    {
+                        "repeatintervals": [
+                            800
+                        ],
+                        "events": [
+                            {
+                                "buttonevent": 4000,
+                                "eventtype": "initial_press"
+                            },
+                            {
+                                "buttonevent": 4001,
+                                "eventtype": "repeat"
+                            },
+                            {
+                                "buttonevent": 4002,
+                                "eventtype": "short_release"
+                            },
+                            {
+                                "buttonevent": 4003,
+                                "eventtype": "long_release"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "8": {
+            "state": {
+                "presence": false,
+                "lastupdated": "2021-06-15T05:30:49"
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2020-10-28T17:39:09"
+            },
+            "config": {
+                "on": true,
+                "battery": 100,
+                "reachable": true,
+                "alert": "none",
+                "sensitivity": 0,
+                "sensitivitymax": 2,
+                "ledindication": false,
+                "usertest": false,
+                "pending": []
+            },
+            "name": "Sensor planta baja",
+            "type": "ZLLPresence",
+            "modelid": "SML001",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue motion sensor",
+            "swversion": "6.1.1.27575",
+            "uniqueid": "00:17:88:01:06:f5:cf:b5-02-0406",
+            "capabilities": {
+                "certified": true,
+                "primary": true
+            }
+        },
+        "9": {
+            "state": {
+                "lightlevel": 0,
+                "dark": true,
+                "daylight": false,
+                "lastupdated": "2021-06-19T07:24:34"
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2020-10-28T17:39:09"
+            },
+            "config": {
+                "on": true,
+                "battery": 100,
+                "reachable": true,
+                "alert": "none",
+                "tholddark": 0,
+                "tholdoffset": 7000,
+                "ledindication": false,
+                "usertest": false,
+                "pending": []
+            },
+            "name": "Hue ambient light sensor 1",
+            "type": "ZLLLightLevel",
+            "modelid": "SML001",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue ambient light sensor",
+            "swversion": "6.1.1.27575",
+            "uniqueid": "00:17:88:01:06:f5:cf:b5-02-0400",
+            "capabilities": {
+                "certified": true,
+                "primary": false
+            }
+        },
+        "10": {
+            "state": {
+                "temperature": 1533,
+                "lastupdated": "2021-06-19T07:25:40"
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2020-10-28T17:39:09"
+            },
+            "config": {
+                "on": true,
+                "battery": 100,
+                "reachable": true,
+                "alert": "none",
+                "ledindication": false,
+                "usertest": false,
+                "pending": []
+            },
+            "name": "Hue temperature sensor 1",
+            "type": "ZLLTemperature",
+            "modelid": "SML001",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue temperature sensor",
+            "swversion": "6.1.1.27575",
+            "uniqueid": "00:17:88:01:06:f5:cf:b5-02-0402",
+            "capabilities": {
+                "certified": true,
+                "primary": false
+            }
+        },
+        "23": {
+            "state": {
+                "status": 1,
+                "lastupdated": "2021-06-17T20:59:35"
+            },
+            "config": {
+                "on": true,
+                "reachable": true
+            },
+            "name": "cycling",
+            "type": "CLIPGenericStatus",
+            "modelid": "HUELABSENUM",
+            "manufacturername": "Philips",
+            "swversion": "1.0",
+            "uniqueid": "2:0:c589-843e-46c8-85c0",
+            "recycle": true
+        },
+        "24": {
+            "state": {
+                "status": 1,
+                "lastupdated": "2021-06-17T20:59:25"
+            },
+            "config": {
+                "on": true,
+                "reachable": true
+            },
+            "name": "cycleState",
+            "type": "CLIPGenericStatus",
+            "modelid": "HUELABSENUM",
+            "manufacturername": "Philips",
+            "swversion": "1.0",
+            "uniqueid": "0:1:33f8-87cc-45e7-b3a5",
+            "recycle": true
+        },
+        "25": {
+            "state": {
+                "status": 1,
+                "lastupdated": "2021-06-19T00:44:39"
+            },
+            "config": {
+                "on": true,
+                "reachable": true
+            },
+            "name": "cycling",
+            "type": "CLIPGenericStatus",
+            "modelid": "HUELABSENUM",
+            "manufacturername": "Philips",
+            "swversion": "1.0",
+            "uniqueid": "2:0:7b55-d0c8-478c-b8b6",
+            "recycle": true
+        },
+        "26": {
+            "state": {
+                "status": 1,
+                "lastupdated": "2021-06-19T00:44:29"
+            },
+            "config": {
+                "on": true,
+                "reachable": true
+            },
+            "name": "cycleState",
+            "type": "CLIPGenericStatus",
+            "modelid": "HUELABSENUM",
+            "manufacturername": "Philips",
+            "swversion": "1.0",
+            "uniqueid": "0:1:e7e4-5d59-4854-9065",
+            "recycle": true
+        },
+        "35": {
+            "state": {
+                "status": 0,
+                "lastupdated": "2021-06-19T06:35:29"
+            },
+            "config": {
+                "on": true,
+                "reachable": true
+            },
+            "name": "presenceState",
+            "type": "CLIPGenericStatus",
+            "modelid": "HUELABSENUM",
+            "manufacturername": "Philips",
+            "swversion": "1.0",
+            "uniqueid": "5:12:b755-5057-45c9-95f5",
+            "recycle": true
+        },
+        "36": {
+            "state": {
+                "status": 0,
+                "lastupdated": "2021-06-18T13:06:21"
+            },
+            "config": {
+                "on": true,
+                "reachable": true
+            },
+            "name": "textState",
+            "type": "CLIPGenericStatus",
+            "modelid": "BEH_STATE",
+            "manufacturername": "Philips",
+            "swversion": "1.0",
+            "uniqueid": "2:13:7085-0322-4b21-8cf2",
+            "recycle": true
+        }
+    },
+    "resourcelinks": {
+        "30315": {
+            "name": "Sensor planta baja",
+            "description": "Sensor planta baja behavior",
+            "type": "Link",
+            "classid": 10022,
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "links": [
+                "/rules/34",
+                "/rules/33",
+                "/rules/32",
+                "/rules/31",
+                "/rules/30",
+                "/rules/29",
+                "/rules/28",
+                "/rules/27",
+                "/rules/26",
+                "/sensors/8",
+                "/scenes/8UFEHxvvYfFFkqM",
+                "/groups/2",
+                "/rules/25",
+                "/rules/24",
+                "/rules/23",
+                "/sensors/9",
+                "/sensors/36",
+                "/sensors/35",
+                "/scenes/77Ir0moKbHy8YlL",
+                "/scenes/JF0zao-TB1p8LU4"
+            ]
+        },
+        "33052": {
+            "name": "Switch habitación",
+            "description": "Switch habitación behavior",
+            "type": "Link",
+            "classid": 10013,
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "links": [
+                "/rules/11",
+                "/rules/10",
+                "/rules/9",
+                "/rules/8",
+                "/rules/7",
+                "/rules/6",
+                "/rules/5",
+                "/scenes/PNQOaQRt2AjurvT",
+                "/rules/4",
+                "/scenes/OKeRjtx0p9R6TYg",
+                "/rules/3",
+                "/scenes/vsTJVpMHz7cYbKo",
+                "/rules/2",
+                "/scenes/xYDcUWgktnFdgf4",
+                "/rules/1",
+                "/sensors/4",
+                "/groups/2",
+                "/schedules/1",
+                "/sensors/26",
+                "/sensors/25"
+            ]
+        },
+        "60388": {
+            "name": "Switch living",
+            "description": "Switch living behavior",
+            "type": "Link",
+            "classid": 10013,
+            "owner": "08b70b21-8b45-4948-8e5b-50e7e6caacfc",
+            "recycle": false,
+            "links": [
+                "/rules/22",
+                "/rules/21",
+                "/rules/20",
+                "/rules/19",
+                "/rules/18",
+                "/rules/17",
+                "/rules/16",
+                "/scenes/H7F2gxailo8QExm",
+                "/rules/15",
+                "/scenes/zQ1HONabF8R0zco",
+                "/rules/14",
+                "/scenes/u4gryacaNRfVjO3",
+                "/rules/13",
+                "/scenes/WQi9uQnNr7d6KkS",
+                "/rules/12",
+                "/sensors/2",
+                "/groups/1",
+                "/schedules/2",
+                "/sensors/24",
+                "/sensors/23"
+            ]
+        }
+    }
+}
